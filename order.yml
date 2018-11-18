@@ -1,0 +1,14 @@
+spring:
+  application:
+    name: order
+  datasource:
+    driver-class-name: com.mysql.jdbc.Driver
+    username: root
+    password: mbh529
+    url: jdbc:mysql://127.0.0.1:3306/spring-cloud?characterEncoding=utf8&usrSSL=false
+eureka:
+  client:
+    service-url:
+      defaultZone: http://127.0.0.1:8761/eureka/
+server:
+  port: 8090
